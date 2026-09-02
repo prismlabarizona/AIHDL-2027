@@ -202,16 +202,6 @@ Teams are made up of 3-5 students at the same division level. You do not need to
 
 ---
 
-## 📚 Workshop Webinar links:
-
-### **Video Tutorials**
-
-- **October 29** Webinar 1: Overview of AI-HDL, Design Challenge Tool Flow, Timeline, Rubric, and Submissions 
-- **November 19** Webinar 2: Design Challenge Overview, Base Design Implementation Demo, and Q&A   
-- **December 17** Webinar 3: ChipMango AI-HDL Certificate
-
----
-
 ## 🛠️ Tools & Resources
 
 ### **AI Tools Provided**

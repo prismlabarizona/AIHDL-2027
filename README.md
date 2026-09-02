@@ -4,7 +4,7 @@
 
 [![AI-HDL Logo](https://img.shields.io/badge/AI--HDL-2027-blue?style=for-the-badge)](https://csm.arizona.edu/AIHDL)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=flat&logo=discord)](https://discord.gg/egwa3FAAr)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=flat&logo=discord)](https://discord.com/invite/kJjQwxvTzY)
 
 **Empowering the Next Generation of Hardware Designers with AI**
 
@@ -20,8 +20,6 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 **🎓 Inspired by**: The pioneering work of the [University of Arizona AI-HDL program](https://csm.arizona.edu/AIHDL), which has successfully demonstrated the power of AI-assisted hardware design education with previous winners from the University of Arizona and international teams.
 
-📖 **[Learn more about the connection to the official AI-HDL program →](./docs/about-aihdl.md)**
-
 ### 🎬 Watch Our Introduction Video
 
 [[AI-HDL Introduction Video part 1]](https://www.youtube.com/watch?v=TVYUB6AjqxA)
@@ -31,7 +29,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ## Previous Winners
 
-### 🏆 AI-HDL 2026 Winners 
+### 🏆 *AI-HDL 2026 Winners* 
 
 #### **🥇 Best Design Overall**
 
@@ -62,9 +60,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 **HUST1** - *Hanoi University of Science and Technology, Vietnam*
 
 
-
-
-### 🏆 AI-HDL 2025 Winners
+### 🏆 *AI-HDL 2025 Winners*
 
 #### **🥇 Best Design Overall**
 
@@ -210,9 +206,9 @@ Teams are made up of 3-5 students at the same division level. You do not need to
 
 ### **Video Tutorials**
 
-- Webinar #1: Getting Started with AI-HDL – Competition Overview & Toolchain Setup  
-- Webinar #2: Unveiling the Challenge – Design Scope, Specifications, & Important Details   
-- Webinar #3: From Code to Results – Early Implementation & Demo Walkthrough
+- **October 29** Webinar 1: Overview of AI-HDL, Design Challenge Tool Flow, Timeline, Rubric, and Submissions 
+- **November 19** Webinar 2: Design Challenge Overview, Base Design Implementation Demo, and Q&A   
+- **December 17** Webinar 3: ChipMango AI-HDL Certificate
 
 ---
 
@@ -315,7 +311,7 @@ AIHDL-2027/
 
 - 🌐 **Official AI-HDL Website**: [csm.arizona.edu/AIHDL](https://csm.arizona.edu/AIHDL)
 - 🎓 **University of Arizona**: [Center for Semiconductor Manufacturing](https://csm.arizona.edu/)
-- 💬 **Discord**: [Join our community](https://discord.gg/egwa3FAAr) 
+- 💬 **Discord**: [Join our community](https://discord.com/invite/kJjQwxvTzY) 
 
 ### **Frequently asked Questions**
 
@@ -367,7 +363,7 @@ This repository is inspired by and builds upon the excellent work of the [Univer
 
 **Ready to design the future?** 🚀
 
-[**REGISTER NOW**](https://docs.google.com/forms/d/10fVaFQuggTkw-JVKgR-nytReIazr4RHuvxvFBwvVd9k/viewform?ts=6a976218&edit_requested=true) | [**Join Discord**](https://discord.gg/egwa3FAAr) | [**Learn More**](https://csm.arizona.edu/AIHDL)
+[**REGISTER NOW**](https://docs.google.com/forms/d/10fVaFQuggTkw-JVKgR-nytReIazr4RHuvxvFBwvVd9k/viewform?ts=6a976218&edit_requested=true) | [**Join Discord**](https://discord.com/invite/kJjQwxvTzY) | [**Learn More**](https://csm.arizona.edu/AIHDL)
 
 *FROM PROMPTS TO SILICON* ⚡
 

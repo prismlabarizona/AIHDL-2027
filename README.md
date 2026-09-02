@@ -29,7 +29,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ## Previous Winners
 
-### 🏆 *AI-HDL 2026 Winners* 
+### 🏆 AI-HDL 2026 Winners 
 
 #### **🥇 Best Design Overall**
 
@@ -60,7 +60,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 **HUST1** - *Hanoi University of Science and Technology, Vietnam*
 
 
-### 🏆 *AI-HDL 2025 Winners*
+### 🏆 AI-HDL 2025 Winners
 
 #### **🥇 Best Design Overall**
 
@@ -147,7 +147,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 AI-HDL 2027 has two divisions. Teams compete against other teams in their division and are evaluated accordingly.
 
 - Lower Division - For high school teams. Every member of a Lower Division team must be a high school student.
-- Upper Division - For community college, undergraduate, and graduate teams. Upper Division teams may mix community college, undergraduate, and graduate students, with a maximum of 3 graduate students per team.
+- Upper Division - For community college, undergraduate, and graduate teams. Upper Division teams may mix community college, undergraduate, and graduate students, with a maximum of 3 graduate students per team. *Teams that include community college students receive bonus points* 
     
 ### **Team Formation**
 

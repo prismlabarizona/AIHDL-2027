@@ -85,24 +85,24 @@ The AI-HDL competition employs a progressive grading scheme across four design p
 
 ##	**Phase-Based Evaluation**
 **Design Phase 1** 
-      - 	**Weight**: 20% of total score
-      - 	**Cutoff**: Bottom 25–30% of teams advance based on functionality, verification success, and documentation completeness.
-      - 	**Advancement Criteria**: Teams must demonstrate a functional, synthesizable RTL with successful testbench results.
+- 	**Weight**: 20% of total score
+- 	**Cutoff**: Bottom 25–30% of teams advance based on functionality, verification success, and documentation completeness.
+- 	**Advancement Criteria**: Teams must demonstrate a functional, synthesizable RTL with successful testbench results.
 
 **Design Phase 2** 
-      - 	**Weight**: 25% of total score
-      - 	**Cutoff**: Another 25% of teams advance based on failure to achieve measurable improvements in power, performance, or area (PPA).
-      - 	**Advancement Criteria**: Teams must provide clear before/after metrics and maintain correctness after optimizations.
+- 	**Weight**: 25% of total score
+- 	**Cutoff**: Another 25% of teams advance based on failure to achieve measurable improvements in power, performance, or area (PPA).
+- 	**Advancement Criteria**: Teams must provide clear before/after metrics and maintain correctness after optimizations.
 
 **Design Phase 3**
-      - 	**Weight:** 25% of total score
-      - 	**Cutoff:** Only the top 6–8 teams (depending on participation size) advance to the final phase.
-      - 	**Advancement Criteria:** Teams must implement and validate at least one major security feature, provide a structured vulnerability analysis, and maintain functional correctness.
+- 	**Weight:** 25% of total score
+- 	**Cutoff:** Only the top 6–8 teams (depending on participation size) advance to the final phase.
+- 	**Advancement Criteria:** Teams must implement and validate at least one major security feature, provide a structured vulnerability analysis, and maintain functional correctness.
 
 **Design Phase 4** (DP4: RTL-to-GDSII & Tapeout)
-      - 	**Weight:** 30% of total score
-      - 	**Final Evaluation:** The last stage evaluates complete implementation, sign-off quality, manufacturability, and final reporting.
-      - 	**Winners:** Final cumulative scores determine the Top 3 Teams, who are announced as the winners during the closing ceremony.
+- 	**Weight:** 30% of total score
+- 	**Final Evaluation:** The last stage evaluates complete implementation, sign-off quality, manufacturability, and final reporting.
+- 	**Winners:** Final cumulative scores determine the Top 3 Teams, who are announced as the winners during the closing ceremony.
 
 ###	**Final Scoring Distribution**
 | Phase | Focus Area | Weight |

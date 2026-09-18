@@ -81,22 +81,22 @@ team-name-challenge-X/
 
 ## Grading Schema
 
-The AI-HDL competition employs a progressive elimination grading scheme across four design phases (DP1–DP4). Each phase is graded independently according to its rubric, with only the strongest teams advancing to the next stage. At the end of the competition, cumulative performance determines the final ranking and winners.
+The AI-HDL competition employs a progressive grading scheme across four design phases (DP1–DP4). Each phase is graded independently according to its rubric, with only the strongest teams advancing to the next stage. At the end of the competition, cumulative performance determines the final ranking and winners.
 
-##	**Phase-Based Evaluation and Elimination**
+##	**Phase-Based Evaluation **
 **Design Phase 1** 
       - 	**Weight**: 20% of total score
-      - 	**Cutoff**: Bottom 25–30% of teams eliminated based on functionality, verification success, and documentation completeness.
+      - 	**Cutoff**: Bottom 25–30% of teams advance based on functionality, verification success, and documentation completeness.
       - 	**Advancement Criteria**: Teams must demonstrate a functional, synthesizable RTL with successful testbench results.
 
 **Design Phase 2** 
       - 	**Weight**: 25% of total score
-      - 	**Cutoff**: Another 25% of teams eliminated based on failure to achieve measurable improvements in power, performance, or area (PPA).
+      - 	**Cutoff**: Another 25% of teams advance based on failure to achieve measurable improvements in power, performance, or area (PPA).
       - 	**Advancement Criteria**: Teams must provide clear before/after metrics and maintain correctness after optimizations.
 
 **Design Phase 3**
       - 	**Weight:** 25% of total score
-      - 	**Cutoff:** Only the top 6–8 teams (depending on participation size) advance to the final phase. Eliminations are based on weak or incomplete security reviews, lack of meaningful countermeasures, or regression    failures.
+      - 	**Cutoff:** Only the top 6–8 teams (depending on participation size) advance to the final phase.
       - 	**Advancement Criteria:** Teams must implement and validate at least one major security feature, provide a structured vulnerability analysis, and maintain functional correctness.
 
 **Design Phase 4** (DP4: RTL-to-GDSII & Tapeout)
@@ -105,12 +105,12 @@ The AI-HDL competition employs a progressive elimination grading scheme across f
       - 	**Winners:** Final cumulative scores determine the Top 3 Teams, who are announced as the winners during the closing ceremony.
 
 ###	**Final Scoring Distribution**
-| Phase | Focus Area | Weight | Elimination Rule |
-|------|--------|--------|--------|  			 
-| DP1 | Module Implementation & Verification |	20%	| Bottom ~25–30% eliminated |
-| DP2 |	PPA Optimization	| 25% |	Next ~25% eliminated |
-| DP3	| Security Hardening	| 25%	| Only top 6–8 teams advance | 
-| DP4 |	Physical Design & Tapeout	| 30% |	Final ranking (Top 3 selected) |
+| Phase | Focus Area | Weight |
+|------|--------|--------|			 
+| DP1 | Module Implementation & Verification |	20%	|
+| DP2 |	PPA Optimization	| 25% |
+| DP3	| Security Hardening	| 25%	|
+| DP4 |	Physical Design & Tapeout	| 30% |
 
 ---
 

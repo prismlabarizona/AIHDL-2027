@@ -115,19 +115,19 @@ The AI-HDL competition employs a progressive grading scheme across four design p
 ---
 
 ###	**Final Selection**
-   •	The Top 3 teams are selected after DP4 based on their cumulative weighted score across all phases.
-   •	Judges may award honorable mentions for exceptional innovation, documentation, or creative use of AI/LLMs in the design process, even if the team does not reach the Top 3.
+-	The Top 3 teams are selected after DP4 based on their cumulative weighted score across all phases.
+-	Judges may award honorable mentions for exceptional innovation, documentation, or creative use of AI/LLMs in the design process, even if the team does not reach the Top 3.
 
 ###	**Bonus Opportunities:** Some unrequired achievements can earn bonus points (could tip the score above 100% in exceptional cases):
-   •	Actually getting silicon back and demonstrating it working (if timeline permits – likely not within competition timeframe, but if competition later showcases it, that’s huge).
-   •	Excellent open-source contribution: e.g., the team wrote a new feature for OpenROAD and used it.
-   •	Going multi-core or multi-voltage design or other advanced ideas beyond scope.
+-	Actually getting silicon back and demonstrating it working (if timeline permits – likely not within competition timeframe, but if competition later showcases it, that’s huge).
+-	Excellent open-source contribution: e.g., the team wrote a new feature for OpenROAD and used it.
+-	Going multi-core or multi-voltage design or other advanced ideas beyond scope.
 
 ###	**Grade Deductions**: On the flip side, certain failures can cost a lot of points:
-   •	A design that doesn’t synthesize or doesn’t simulate correctly at final submission would fail the Functional criteria heavily, possibly disqualify.
-   •	Not submitting a GDS or failing DRC/LVS means the design isn’t manufacturable, that’s a severe hit in Physical Implementation score.
-   •	Not following the specified format (missing sections in documentation, missing citations, etc.) will reduce the Documentation score.
-   •	Missing deadlines severely or requiring intervention to complete tasks might also reflect in scoring indirectly (as their results likely suffer).
+-	A design that doesn’t synthesize or doesn’t simulate correctly at final submission would fail the Functional criteria heavily, possibly disqualify.
+-	Not submitting a GDS or failing DRC/LVS means the design isn’t manufacturable, that’s a severe hit in Physical Implementation score.
+-	Not following the specified format (missing sections in documentation, missing citations, etc.) will reduce the Documentation score.
+-	Missing deadlines severely or requiring intervention to complete tasks might also reflect in scoring indirectly (as their results likely suffer).
 
 ## Special Recognition Categories
 

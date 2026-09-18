@@ -96,7 +96,7 @@ The AI-HDL competition employs a progressive grading scheme across four design p
 
 **Design Phase 3**
 - 	**Weight:** 25% of total score
-- 	**Cutoff:** Only the top 6–8 teams (depending on participation size) advance to the final phase.
+- 	**Cutoff:** The top 6–8 teams (depending on participation size) advance to the final phase.
 - 	**Advancement Criteria:** Teams must implement and validate at least one major security feature, provide a structured vulnerability analysis, and maintain functional correctness.
 
 **Design Phase 4** (DP4: RTL-to-GDSII & Tapeout)

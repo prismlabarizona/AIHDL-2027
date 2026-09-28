@@ -1,0 +1,17 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1775362245" />
+    <testcase name="test_varying_clock_speeds" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="126" time="0.5731916427612305" sim_time_ns="290000.0" ratio_time="505938.9885780362" />
+    <testcase name="test_reset_during_transmission" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="138" time="0.29985475540161133" sim_time_ns="135200.0" ratio_time="450884.9620174257" />
+    <testcase name="test_miso_all_spi_modes" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="154" time="1.1837713718414307" sim_time_ns="552000.0" ratio_time="466306.25907207857" />
+    <testcase name="test_16bit_alignment_mux" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="181" time="0.31818056106567383" sim_time_ns="159000.0" ratio_time="499716.2600614741" />
+    <testcase name="test_32bit_lsb_first_burst" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="200" time="0.38418102264404297" sim_time_ns="159000.0" ratio_time="413867.3974724645" />
+    <testcase name="test_crc16_hardware_math" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="229" time="0.3487997055053711" sim_time_ns="159000.0" ratio_time="455849.0087301739" />
+    <testcase name="test_sleepwalker_anomaly_trigger" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="249" time="0.6513988971710205" sim_time_ns="290000.0" ratio_time="445195.7184137854" />
+    <testcase name="test_sleepwalker_normal_poll" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="278" time="0.5286507606506348" sim_time_ns="262000.0" ratio_time="495601.29200900905" />
+    <testcase name="test_security_hardware_lock" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="306" time="0.6215157508850098" sim_time_ns="184700.0" ratio_time="297176.7002477342" />
+    <testcase name="test_security_unprivileged_spi_access" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="341" time="0.4116325378417969" sim_time_ns="211000.0" ratio_time="512593.10332045186" />
+    <testcase name="test_security_read_unlock_status" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="367" time="0.585310697555542" sim_time_ns="184800.0" ratio_time="315729.74963859044" />
+    <testcase name="test_security_clear_auto_irq_while_locked" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_3sec/test/test.py" lineno="388" time="0.8399035930633545" sim_time_ns="396100.0" ratio_time="471601.7448565932" />
+  </testsuite>
+</testsuites>

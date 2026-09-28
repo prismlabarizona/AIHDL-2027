@@ -1,0 +1,35 @@
+
+63. Printing statistics.
+
+=== tt_um_tqv_peripheral_harness ===
+
+   Number of wires:               1259
+   Number of wire bits:           1607
+   Number of public wires:          60
+   Number of public wire bits:     377
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1557
+     $_ANDNOT_                     300
+     $_AND_                         45
+     $_DFFE_PN0P_                   48
+     $_DFFE_PN1P_                    2
+     $_DFF_N_                        1
+     $_DFF_PN0_                      3
+     $_DFF_P_                        8
+     $_MUX_                        460
+     $_NAND_                        27
+     $_NOR_                         39
+     $_NOT_                         27
+     $_ORNOT_                      102
+     $_OR_                         189
+     $_SDFFE_PN0P_                 178
+     $_SDFFE_PN1P_                  13
+     $_SDFFE_PP0P_                  32
+     $_SDFFE_PP1P_                  16
+     $_SDFF_PN0_                    17
+     $_SDFF_PP0_                     1
+     $_XNOR_                        12
+     $_XOR_                         37
+

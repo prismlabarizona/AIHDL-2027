@@ -1,0 +1,15 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1772046001" />
+    <testcase name="test_varying_clock_speeds" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="130" time="0.0629730224609375" sim_time_ns="30600.0" ratio_time="485922.3649139811" />
+    <testcase name="test_back_to_back_transmissions" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="140" time="0.03956031799316406" sim_time_ns="28199.999999999996" ratio_time="712835.5238416662" />
+    <testcase name="test_reset_during_transmission" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="149" time="0.006991386413574219" sim_time_ns="3800.0" ratio_time="543525.9582594462" />
+    <testcase name="test_msb_first_verification" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="168" time="0.00577092170715332" sim_time_ns="1600.0" ratio_time="277252.071885974" />
+    <testcase name="test_divider_timing_precision" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="178" time="0.0066471099853515625" sim_time_ns="1700.0" ratio_time="255750.24390243902" />
+    <testcase name="test_miso_basic_receive" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="195" time="0.021929264068603516" sim_time_ns="10400.0" ratio_time="474252.12115940766" />
+    <testcase name="test_miso_all_spi_modes" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="212" time="0.07637619972229004" sim_time_ns="42000.0" ratio_time="549909.528789274" />
+    <testcase name="test_miso_lsb_first" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="235" time="0.02192974090576172" sim_time_ns="10400.0" ratio_time="474241.80908893235" />
+    <testcase name="test_miso_irq_flag" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="250" time="0.018495798110961914" sim_time_ns="10700.0" ratio_time="578509.7748043879" />
+    <testcase name="test_miso_full_duplex" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_2/test/test.py" lineno="272" time="0.021857738494873047" sim_time_ns="11400.0" ratio_time="521554.4143633151" />
+  </testsuite>
+</testsuites>

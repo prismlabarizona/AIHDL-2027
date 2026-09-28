@@ -1,0 +1,109 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: rst_n (input port clocked by clk)
+Endpoint: _434_ (rising edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.80    2.80 v input external delay
+     1    0.00    0.01    0.00    2.80 v rst_n (in)
+                                         rst_n (net)
+                  0.01    0.00    2.80 v input1/A (sky130_fd_sc_hd__buf_1)
+     1    0.01    0.05    0.10    2.90 v input1/X (sky130_fd_sc_hd__buf_1)
+                                         net1 (net)
+                  0.05    0.00    2.90 v _434_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.90   data arrival time
+
+                  0.15    7.00    7.00   clock clk' (rise edge)
+                          0.00    7.00   clock network delay (ideal)
+                         -0.25    6.75   clock uncertainty
+                          0.00    6.75   clock reconvergence pessimism
+                                  6.75 ^ _434_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.09    6.66   library setup time
+                                  6.66   data required time
+-----------------------------------------------------------------------------
+                                  6.66   data required time
+                                 -2.90   data arrival time
+-----------------------------------------------------------------------------
+                                  3.76   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+max slew violations count Typical: 0
+max fanout violations count Typical: 0
+max cap violations count Typical: 0
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 23 unannotated drivers.
+ clk
+ ena
+ uio_in[5]
+ uio_in[6]
+ uio_in[7]
+ _242__1/Y
+ clkbuf_0_clk/X
+ clkbuf_2_0__f_clk/X
+ clkbuf_2_1__f_clk/X
+ clkbuf_2_2__f_clk/X
+ clkbuf_2_3__f_clk/X
+ tt_um_tqv_peripheral_harness_28/HI
+ tt_um_tqv_peripheral_harness_29/HI
+ tt_um_tqv_peripheral_harness_30/HI
+ tt_um_tqv_peripheral_harness_31/HI
+ tt_um_tqv_peripheral_harness_32/LO
+ tt_um_tqv_peripheral_harness_33/LO
+ tt_um_tqv_peripheral_harness_34/LO
+ tt_um_tqv_peripheral_harness_35/LO
+ tt_um_tqv_peripheral_harness_36/LO
+ tt_um_tqv_peripheral_harness_37/LO
+ tt_um_tqv_peripheral_harness_38/LO
+ tt_um_tqv_peripheral_harness_39/LO
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 12 unconstrained endpoints.
+  uio_oe[0]
+  uio_oe[1]
+  uio_oe[2]
+  uio_oe[3]
+  uio_oe[4]
+  uio_oe[5]
+  uio_oe[6]
+  uio_oe[7]
+  uo_out[4]
+  uo_out[5]
+  uo_out[6]
+  uo_out[7]

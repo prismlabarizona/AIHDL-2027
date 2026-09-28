@@ -1,0 +1,31 @@
+ # 1. Read SystemVerilog files (Core utilities and SPI register)
+read_verilog -sv spi_reg.sv rising_edge_detector.sv falling_edge_detector.sv \
+                 synchronizer.sv reclocking.sv
+
+# 2. Read standard Verilog files (Core, Peripheral, and AES128)
+read_verilog alu.v counter.v decode.v latch_reg.v mem_ctrl.v \
+             peripheral.v qspi_ctrl.v register.v core.v cpu.v \
+             tinyqv.v tt_wrapper.v time.v \
+             AES128/AES_control_unit.v AES128/AES_memory.v \
+             AES128/AES_encryption_engine.v AES128/AES_key_engine.v \
+             AES128/sbox_lookup.v
+
+# 3. Specify the TOP module
+hierarchy -check -top tt_um_tqv_peripheral_harness
+
+# 4. Synthesis Flow
+proc;      # Handling always blocks
+fsm;       # Optimize finite state machines
+opt;       # Logic optimization
+wreduce;   # Word-size reduction
+peepopt;   # Peephole optimizations
+opt_clean; 
+
+# 5. Technology Mapping (Generic)
+techmap;
+abc -g gates;
+clean;
+
+# 6. Output
+stat;
+write_verilog synthesized_netlist.v

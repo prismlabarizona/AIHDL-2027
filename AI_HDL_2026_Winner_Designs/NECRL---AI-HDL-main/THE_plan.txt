@@ -1,0 +1,76 @@
+Address Map:
+  Questions:
+    -how does it start? must set start high before loading in data or it will reset our data.
+  0x00: Control reg (R/W)
+    -bit 0: start
+    -bit 1: reset
+    -bit 2: key lock
+  0x01: Status reg (R)
+    -bit 0: done
+  0x02: Key 0
+  0x03: Key 1
+  0x04: Key 2
+  0x05: Key 3
+  0x12: Data in 0
+  0x13: Data in 1
+  0x14: Data in 2
+  0x15: Data in 3
+  0x22: Data out 0
+  0x23: Data out 1
+  0x24: Data out 2
+  0x25: Data out 3
+
+
+Modules IO:
+  
+  AES_top_necrl
+    input clk
+    input address [5:0]
+    input data_in [31:0]
+    input reset_n
+    input data_read_n [1:0]
+    input data_write_n [1:0]
+    output data_out [31:0]
+
+  AES_ctl_unit
+    input clk
+    input start
+    input reset_n //hardware reset
+    input reset_s //software reset
+    input r_key_rdy
+    output done
+    output reset  //internal reset from ctl unit ot other modules
+    output encryption_engine_ctl [1:0]
+    output key_engine_counter [3:0]
+
+  AES_key_engine
+    input clk
+    input reset
+    input key_engine_counter [3:0]
+    input original_key [127:0]
+    output round_key [127:0]
+    output round_key_rdy
+
+  AES_encryption_engine
+    input clk
+    input reset
+    input encryption_engine_data [127:0]
+    input round_key [127:0]
+    output cipher [127:0]
+
+  ASE_mem
+    input clk
+    input reset
+    input done
+    input data_in [31:0]
+    input address [5:0]
+    input data_write_n [1:0]
+    input data_read_n [1:0]
+    output done
+    output original_key [127:0]
+    output data_out [32:0]
+
+
+    
+  
+    

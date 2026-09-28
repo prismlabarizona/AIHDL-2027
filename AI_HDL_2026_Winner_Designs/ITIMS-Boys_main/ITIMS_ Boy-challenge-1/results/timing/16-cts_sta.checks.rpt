@@ -1,0 +1,171 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: _464_ (rising edge-triggered flip-flop clocked by clk')
+Endpoint: _452_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15   10.00   10.00   clock clk' (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                  0.15    0.00   10.00 ^ _464_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     4    0.02    0.16    0.45   10.45 ^ _464_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                         i_spi_reg.falling_edge_detector_sof.rstb (net)
+                  0.16    0.00   10.45 ^ fanout9/A (sky130_fd_sc_hd__clkbuf_4)
+    10    0.04    0.14    0.26   10.70 ^ fanout9/X (sky130_fd_sc_hd__clkbuf_4)
+                                         net9 (net)
+                  0.14    0.00   10.70 ^ _452_/RESET_B (sky130_fd_sc_hd__dfrtp_2)
+                                 10.70   data arrival time
+
+                  0.15   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.25   19.75   clock uncertainty
+                          0.00   19.75   clock reconvergence pessimism
+                                 19.75 ^ _452_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                          0.22   19.97   library recovery time
+                                 19.97   data required time
+-----------------------------------------------------------------------------
+                                 19.97   data required time
+                                -10.70   data arrival time
+-----------------------------------------------------------------------------
+                                  9.27   slack (MET)
+
+
+Startpoint: rst_n (input port clocked by clk)
+Endpoint: _464_ (rising edge-triggered flip-flop clocked by clk')
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          4.00    4.00 v input external delay
+     1    0.00    0.01    0.00    4.00 v rst_n (in)
+                                         rst_n (net)
+                  0.01    0.00    4.00 v input1/A (sky130_fd_sc_hd__clkbuf_1)
+     1    0.01    0.05    0.09    4.10 v input1/X (sky130_fd_sc_hd__clkbuf_1)
+                                         net1 (net)
+                  0.05    0.00    4.10 v _464_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  4.10   data arrival time
+
+                  0.15   10.00   10.00   clock clk' (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                         -0.25    9.75   clock uncertainty
+                          0.00    9.75   clock reconvergence pessimism
+                                  9.75 ^ _464_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.09    9.66   library setup time
+                                  9.66   data required time
+-----------------------------------------------------------------------------
+                                  9.66   data required time
+                                 -4.10   data arrival time
+-----------------------------------------------------------------------------
+                                  5.57   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+max slew violations count Typical: 0
+max fanout violations count Typical: 0
+max cap violations count Typical: 0
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 45 unannotated drivers.
+ clk
+ ena
+ ui_in[0]
+ ui_in[1]
+ ui_in[2]
+ ui_in[3]
+ ui_in[4]
+ ui_in[5]
+ ui_in[6]
+ ui_in[7]
+ uio_in[0]
+ uio_in[1]
+ uio_in[2]
+ uio_in[3]
+ uio_in[7]
+ _335__1/Y
+ clkbuf_0_clk/X
+ clkbuf_3_0__f_clk/X
+ clkbuf_3_1__f_clk/X
+ clkbuf_3_2__f_clk/X
+ clkbuf_3_3__f_clk/X
+ clkbuf_3_4__f_clk/X
+ clkbuf_3_5__f_clk/X
+ clkbuf_3_6__f_clk/X
+ clkbuf_3_7__f_clk/X
+ tt_um_tqv_peripheral_harness_13/HI
+ tt_um_tqv_peripheral_harness_14/HI
+ tt_um_tqv_peripheral_harness_15/HI
+ tt_um_tqv_peripheral_harness_16/HI
+ tt_um_tqv_peripheral_harness_17/HI
+ tt_um_tqv_peripheral_harness_18/HI
+ tt_um_tqv_peripheral_harness_19/HI
+ tt_um_tqv_peripheral_harness_20/HI
+ tt_um_tqv_peripheral_harness_21/HI
+ tt_um_tqv_peripheral_harness_22/HI
+ tt_um_tqv_peripheral_harness_23/HI
+ tt_um_tqv_peripheral_harness_24/HI
+ tt_um_tqv_peripheral_harness_25/HI
+ tt_um_tqv_peripheral_harness_26/HI
+ tt_um_tqv_peripheral_harness_27/HI
+ tt_um_tqv_peripheral_harness_28/HI
+ tt_um_tqv_peripheral_harness_29/HI
+ tt_um_tqv_peripheral_harness_30/HI
+ tt_um_tqv_peripheral_harness_31/HI
+ tt_um_tqv_peripheral_harness_32/LO
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 20 unconstrained endpoints.
+  uio_oe[0]
+  uio_oe[1]
+  uio_oe[2]
+  uio_oe[3]
+  uio_oe[4]
+  uio_oe[5]
+  uio_oe[6]
+  uio_oe[7]
+  uio_out[0]
+  uio_out[1]
+  uio_out[2]
+  uio_out[4]
+  uio_out[5]
+  uio_out[6]
+  uio_out[7]
+  uo_out[3]
+  uo_out[4]
+  uo_out[5]
+  uo_out[6]
+  uo_out[7]

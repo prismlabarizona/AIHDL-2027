@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1769583985" />
+    <testcase name="test_varying_clock_speeds" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_1/test.py" lineno="17" time="0.3205606937408447" sim_time_ns="87000.0" ratio_time="271399.4625627264" />
+    <testcase name="test_back_to_back_transmissions" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_1/test.py" lineno="33" time="0.1385345458984375" sim_time_ns="46799.999999999985" ratio_time="337821.874655799" />
+    <testcase name="test_reset_during_transmission" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_1/test.py" lineno="50" time="0.09256577491760254" sim_time_ns="25200.0" ratio_time="272238.8487800355" />
+    <testcase name="test_msb_first_verification" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_1/test.py" lineno="66" time="0.027948617935180664" sim_time_ns="8500.0" ratio_time="304129.5286841544" />
+    <testcase name="test_divider_timing_precision" classname="test" file="/home/kingkienpls/AI-HDL/OpenLane/designs/DP_1/test.py" lineno="85" time="0.04795479774475098" sim_time_ns="15300.0" ratio_time="319050.4541680546" />
+  </testsuite>
+</testsuites>

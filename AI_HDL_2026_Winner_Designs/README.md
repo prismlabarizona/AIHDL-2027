@@ -19,20 +19,20 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 
 *Note: Because these designs target different functions and divisions, these results represent two distinct implementation points rather than a direct performance comparison.*
 
-| Metric | SPI Controller with CRC-16 <br> *(Undergrad Division)* | AES-128 Accelerator <br> *(Graduate Division)* |
+| ***Metric*** | SPI Controller with CRC-16 <br> *(Undergrad Division)* | AES-128 Accelerator <br> *(Graduate Division)* |
 | :--- | :---: | :---: |
-| **Die footprint** | 0.040 mm² | 0.154 mm² |
-| **Core area** | 37,488 µm² | 149,082 µm² |
-| **Standard cell count** | 2,392 | 6,492 |
-| **Core utilization** | 57.23% | 66.30% |
-| **Maximum clock frequency** | 71.43 MHz | 57.10 MHz |
-| **Worst negative slack** | 0.000 ns | +0.2974 ns |
-| **DRC/LVS violations** | 0 | 0 |
+| Die footprint | 0.040 mm² | 0.154 mm² |
+| Core area | 37,488 µm² | 149,082 µm² |
+| Standard cell count | 2,392 | 6,492 |
+| Core utilization | 57.23% | 66.30% |
+| Maximum clock frequency | 71.43 MHz | 57.10 MHz |
+| Worst negative slack | 0.000 ns | +0.2974 ns |
+| DRC/LVS violations | 0 | 0 |
 | ***Post-layout power estimation at 1.8 V*** | | |
-| **Internal power** | 1.57 µW | 3.79 mW |
-| **Switching power** | 0.72 µW | 1.89 mW |
-| **Leakage power** | 12 nW | 0.10 µW |
-| **Total active power** | **2.29 µW** | **5.68 mW** |
+| Internal power | 1.57 µW | 3.79 mW |
+| Switching power | 0.72 µW | 1.89 mW |
+| Leakage power | 12 nW | 0.10 µW |
+| Total active power | **2.29 µW** | **5.68 mW** |
 
 
 ---

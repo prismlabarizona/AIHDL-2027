@@ -14,10 +14,10 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 *   **AES-128 Accelerator** *(Graduate Division)*: A continuously active cryptographic datapath heavily optimized for security, utilizing balancing countermeasures for a flatter leakage profile.
 
 ---
+<div align="center">
 
 ## 📊 Post-Layout Implementation Results
 
-*Note: Because these designs target different functions and divisions, these results represent two distinct implementation points rather than a direct performance comparison.*
 
 | ***Metric*** | SPI Controller with CRC-16 <br> *(Undergrad Division)* | AES-128 Accelerator <br> *(Graduate Division)* |
 | :--- | :---: | :---: |
@@ -34,7 +34,7 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 | Leakage power | 12 nW | 0.10 µW |
 | Total active power | **2.29 µW** | **5.68 mW** |
 
-
+</div>
 ---
 
 ## 💡 Reading the Results: Key Insights

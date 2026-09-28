@@ -35,6 +35,7 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 | Total active power | **2.29 µW** | **5.68 mW** |
 
 </div>
+
 ---
 
 ## 💡 Reading the Results: Key Insights

@@ -28,19 +28,17 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 | **Maximum clock frequency** | 71.43 MHz | 57.10 MHz |
 | **Worst negative slack** | 0.000 ns | +0.2974 ns |
 | **DRC/LVS violations** | 0 | 0 |
-| <td colspan="3">***Post-layout power estimation at 1.8 V***</td> |
+| ***Post-layout power estimation at 1.8 V*** | | |
 | **Internal power** | 1.57 µW | 3.79 mW |
 | **Switching power** | 0.72 µW | 1.89 mW |
 | **Leakage power** | 12 nW | 0.10 µW |
 | **Total active power** | **2.29 µW** | **5.68 mW** |
 
-*(Reference Figure: See `Figures/fig_6.jpg` for physical implementation layouts and logarithmic power comparisons)*
 
 ---
 
 ## 💡 Reading the Results: Key Insights
 
-What can the 2027 cohort learn from these implementations? 
 
 1. **Precision Timing Closure:** The SPI block closed timing at 71.43 MHz with a worst negative slack of exactly 0.000 ns. This means the EDA flow successfully converged on the design constraints with zero margin left—an ideal optimization state. The AES block comfortably closed at 57.10 MHz with a healthy positive slack of 0.2974 ns.
 2. **Workload Dictates Power:** You'll notice a massive, three-order-of-magnitude power gap between the two designs (2.29 µW vs 5.68 mW). This is a direct consequence of the workload, not the design quality! The SPI controller idles between sensor polls, whereas the AES block drives a continuous, full-round-based datapath.
@@ -48,10 +46,3 @@ What can the 2027 cohort learn from these implementations?
 4. **The Power of Prompts:** Read together, these two results support a critical claim: **an RTL-to-GDSII flow driven by AI prompting works.** It successfully produced two functionally distinct blocks that survived physical verification, one optimized for *energy* and one for *security*. This indicates that AI assistance transfers beautifully across completely different design objectives.
 
 ---
-
-<div align="center">
-  
-**Will your design be featured here next year?** 
-[**Return to the AI-HDL 2027 Main Page**](../README.md)
-
-</div>

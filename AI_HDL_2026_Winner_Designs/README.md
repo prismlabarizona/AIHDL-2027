@@ -19,7 +19,7 @@ For the 2026 tapeout, two distinct functional blocks were fabricated using the *
 ## 📊 Post-Layout Implementation Results
 
 
-| ***Metric*** | SPI Controller with CRC-16 <br> *(Undergrad Division)* | AES-128 Accelerator <br> *(Graduate Division)* |
+| ***Metric*** | SPI Controller with CRC-16 <br> *(Lower Division)* | AES-128 Accelerator <br> *(Upper Division)* |
 | :--- | :---: | :---: |
 | Die footprint | 0.040 mm² | 0.154 mm² |
 | Core area | 37,488 µm² | 149,082 µm² |

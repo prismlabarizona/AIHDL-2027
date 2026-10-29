@@ -87,7 +87,6 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 | Date                        | Event                                                                              |
 | --------------------------- | ---------------------------------------------------------------------------------- |
 | **September 1 2026** | Registration Opens                                                                 |
-
 | **November 12 2026**  | Webinar 1: Overview of AI-HDL, Design Challenge, Tool Flow, Timeline, Rubric, Submissions and QnA |
 | **December 17 2026**  | Webinar 2: ChipMango AI-HDL Certificate and QnA  |
 | **December 18 2026**  | Registration Closes                                                                |

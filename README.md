@@ -88,18 +88,20 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 | --------------------------- | ---------------------------------------------------------------------------------- |
 | **September 1 2026** | Registration Opens                                                                 |
 | **November 12 2026**  | Webinar 1: Overview of AI-HDL, Design Challenge, Tool Flow, Timeline, Rubric, Submissions and QnA |
-| **December 17 2026**  | Webinar 2: ChipMango AI-HDL Certificate and QnA  |
+| **December 17 2026**  | Webinar 2: ChipMango AI-HDL Certificate, Base Design Demo, and Q&A |
 | **December 18 2026**  | Registration Closes                                                                |
 | **January 14 2027**   | League Starts with Design Phase #1 Base Design Expansion |
-| **January 28 2027**   | Webinar 3, Milestone Review and Office Hours #1                                               |
-| **February 11 2027**  | Design Phase #2 Design Evaluation and PPA Optimization                                         |
-| **February 25 2027**  | Webinar 4, Milestone Review and Office Hours #2                                               |
-| **March 11 2027**     | Design Phase #3 Security Evaluation and Threat Mitigation                      |
-| **March 25 2027**     | Webinar 5, Milestone Review and Office Hours #3                                               |
-| **April 8 2027**      | Design Phase #4 Design Netlist to Chip Tapeout                        |
-| **April 22 2027**     | Webinar 6, Milestone Review and Office Hours #4                                               |
-| **April 29 2027**        | League Ends with Final Design Submission, Review, and Evaluations.                              |
-| **May 6 2027**       | Winner Announcement.                                                                |
+| **January 28 2027**   | Webinar 3: TBD Milestone Review and Office Hours #1                                               |
+| **February 4 2027**  | Design Phase #2 Design Evaluation and PPA Optimization                                         |
+| **February 18 2027**  | Webinar 4: TBD Milestone Review and Office Hours #2                                               |
+| **February 25 2027**     | Design Phase #3 Security Evaluation and Threat Mitigation                      |
+| **March 11 2027**     | Webinar 5: TBD Milestone Review and Office Hours #3                                               |
+| **March 18 2027**      | Design Phase #4 Design Netlist to Chip Tapeout                        |
+| **April 1     2027**     | Webinar 6: TBD Milestone Review and Office Hours #4                                               |
+| **April 8 2027**        | League Ends with Final Design Submission, Review, and Evaluations.                              |
+| **April 8 2027**        | Bonus Phase: Netlist to Chip Tapeout.                                        |
+| **April 15 2027**       | Bonus Phase Closes.                                                                |
+| **April 22-29 2027**       | Winner Announcement.                                                                |
 
 ---
 

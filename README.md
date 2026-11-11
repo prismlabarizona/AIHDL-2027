@@ -92,11 +92,11 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 | **December 18 2026**  | Registration Closes                                                                |
 | **January 14 2027**   | League Starts with Design Phase #1 Base Design Expansion |
 | **January 28 2027**   | Webinar 3: TBD Milestone Review and Office Hours #1                                               |
-| **February 4 2027**  | Design Phase #2 Design Evaluation and PPA Optimization                                         |
+| **February 4 2027**  | Design Phase #2 Design Optimization                                         |
 | **February 18 2027**  | Webinar 4: TBD Milestone Review and Office Hours #2                                               |
-| **February 25 2027**     | Design Phase #3 Security Evaluation and Threat Mitigation                      |
+| **February 25 2027**     | Design Phase #3 Design Security Evaluation                      |
 | **March 11 2027**     | Webinar 5: TBD Milestone Review and Office Hours #3                                               |
-| **March 18 2027**      | Design Phase #4 Design Netlist to Chip Tapeout                        |
+| **March 18 2027**      | Design Phase #4 Design Verification                        |
 | **April 1     2027**     | Webinar 6: TBD Milestone Review and Office Hours #4                                               |
 | **April 8 2027**        | League Ends with Final Design Submission, Review, and Evaluations.                              |
 | **April 8 2027**        | Bonus Phase: Netlist to Chip Tapeout.                                        |
